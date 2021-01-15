@@ -1,0 +1,37 @@
+ header{
+        position:relative;
+        margin:auto;
+        text-align:center;
+        padding:5px;
+        background: pink;
+    }
+    nav{
+        position:relative;
+        margin:auto;
+        width:100%;
+        height:auto;
+        background:pink;
+    }
+    nav ul{
+        position:relative;
+        margin:auto;
+        width:50%;
+        text-align:center;
+        background: pink;
+       
+    }
+    nav ul li{
+        display:inline-block;
+        width:24%;
+        line-height:50px;
+        list-style:none;
+        background: pink;
+    }
+    nav ul li a{
+        color:white;
+        text-decoration:none;
+    }
+    section{
+        position:relative;
+        padding:20px
+    }
