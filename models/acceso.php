@@ -35,7 +35,20 @@ switch($op)
             }
             $mysqli->close();
         break;
-
+        case 'ingresarCuenta':
+            header('Content-Type: application/json');
+            session_start();
+            $correo = $_POST['USU_COR'];
+            $clave = $_POST['USU_CLA'];
+            $clave_cifrada=hash('sha512', $clave);
+            $query= mysqli_query($conn, "SELECT * FROM registro WHERE USU_COR = '".$correo."' AND USU_CLA = '".$clave_cifrada."'");
+            $nf = mysqli_num_rows($query);
+            if ($nf === 1) {
+                header("location: ../index.php?action=inicio");
+            }else if ($nf === 0) {
+                header("location: ../index.php?action=ingreso");
+            }
+        break;
 
 }
 }
