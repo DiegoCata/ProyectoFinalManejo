@@ -30,7 +30,7 @@
                 <input name="USU_CLA" class="easyui-passwordbox" required="true" label="Clave:" prompt="Password" iconWidth="28" style="width:130%;height:34px;padding:10px">
             </div>
             <div style="text-align:center" id="dlg-buttons">
-                <a href="#" class="easyui-linkbutton" style="width:80px">Registrar</a>
+                <a href="#" class="easyui-linkbutton" onclick = "guardarCuenta()" style="width:80px">Registrar</a>
             </div>
     </form>
 </div>
