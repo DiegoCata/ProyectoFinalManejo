@@ -49,6 +49,25 @@ switch($op)
                 header("location: ../index.php?action=ingreso");
             }
         break;
+        case 'crearProducto':
+            header('Content-Type: application/json');
+            $codigo=$_POST['COD_PRO'];
+            $nombre=$_POST['NOM_PRO'];
+            $precio=$_POST['PRE_PRO'];
+            $cantidad=$_POST['CAN_PRO'];
+            $foto=addslashes(file_get_contents($_FILES['FOTO_PRO']['tmp_name']));
+            $sqlInsert="INSERT INTO registroProductos(COD_PRO,NOM_PRO,PRE_PRO,CAN_PRO,FOTO_PRO) 
+                        VALUES ('$codigo','$nombre','$precio','$cantidad','$foto')";
+            if($mysqli->query($sqlInsert)===TRUE)
+            {
+            echo json_encode("Se guardo correctamente");
+            }
+            else
+            {
+            echo "Error...".$sqlInsert."<br>".$mysqli->error;
+            }
+            $mysqli->close();
+        break;
 
 }
 }
