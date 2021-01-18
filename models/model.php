@@ -11,6 +11,7 @@ class EnlacesPaginas
         $enlacesModel== "catSF" ||
         $enlacesModel== "precio" ||
         $enlacesModel== "registro")
+        $enlacesModel== "carrito" ||
         {
             $module="views/modules/".$enlacesModel.".php";
         }
