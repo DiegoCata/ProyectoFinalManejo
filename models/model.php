@@ -10,8 +10,8 @@ class EnlacesPaginas
         $enlacesModel== "catJoggers" ||
         $enlacesModel== "catSF" ||
         $enlacesModel== "precio" ||
-        $enlacesModel== "registro")
         $enlacesModel== "carrito" ||
+        $enlacesModel== "registro")
         {
             $module="views/modules/".$enlacesModel.".php";
         }
