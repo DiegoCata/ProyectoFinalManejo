@@ -20,12 +20,10 @@ switch($op)
             $apellido=$_POST['USU_APE'];
             $correo=$_POST['USU_COR'];
             $clave=$_POST['USU_CLA'];
-            $clave_cifrada=password_hash($clave, PASSWORD_DEFAULT);
+            $clave_cifrada=hash('sha512', $clave);
             $sqlInsert="INSERT INTO registro(USU_NOM,USU_APE,USU_COR,USU_CLA) 
                         VALUES ('$nombre','$apellido','$correo','$clave_cifrada')";
-            $sqlInsertUsu="INSERT INTO usuarios(USU_COR,USU_CLA) 
-            VALUES ('$correo','$clave_cifrada')";
-            if($mysqli->query($sqlInsert)===TRUE && $mysqli->query($sqlInsertUsu)===TRUE)
+            if($mysqli->query($sqlInsert)===TRUE)
             {
             echo json_encode("Se guardo correctamente");
             }
@@ -67,6 +65,22 @@ switch($op)
             echo "Error...".$sqlInsert."<br>".$mysqli->error;
             }
             $mysqli->close();
+        break;
+
+        case 'ingresarCuentaAdmin':
+            header('Content-Type: application/json');
+            session_start();
+            $correo = $_POST['USU_COR'];
+            $clave = $_POST['USU_CLA'];
+            $clave_cifrada=hash('sha512', $clave);
+            $query= mysqli_query($conn, "SELECT * FROM usuarios WHERE USU_COR = '".$correo."' AND USU_CLA = '".$clave."'");
+            $nf = mysqli_num_rows($query);
+            if ($nf === 1) {
+                header("location: ../index.php?action=registroProducto");
+            }else if ($nf === 0) {
+                header("location: ../index.php?action=ingreso");
+            }
+        
         break;
 
 }
