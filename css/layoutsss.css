@@ -14,3 +14,35 @@ li a:hover {
 	font-size:17px;
 	text-transform: uppercase;
 }
+
+nav li a {
+	/**/
+	text-decoration: none;
+	color:white;
+	padding: 20px;
+	display: block;
+	}
+	nav li {
+	display: inline-block;
+	text-align:center;
+	}
+	nav li a:hover {
+	  background:#17c5c5;
+		}
+	
+	section{
+		position:relative;
+		padding:20px;
+		background:rgb(148, 233, 190);
+	}
+	footer{
+		color: rgb(16, 114, 101);
+	position:relative;
+	margin:auto;
+	width:100%;
+	height:auto;
+	background:rgb(191, 207, 188);
+	}
+	content{
+		position: relative;
+	}
