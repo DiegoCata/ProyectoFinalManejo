@@ -8,10 +8,17 @@
     <script type="text/javascript" src="jquery-easyui-1.9.7/jquery.min.js"></script>
     <script type="text/javascript" src="jquery-easyui-1.9.7/jquery.easyui.min.js"></script>
 </head>
+<?php
+    session_start();
+    if( !isset($_SESSION['usuarioss'] ) ){
+      header("Location: index.html");
+    }
+  ?>
+
 <div id="shopify-section-1599613745937" class="shopify-section index-section">
   <div class="rich-text">
     <div class="section-header section-header--small">
-      <h2 style="text-indent: 50pt;" class="section-header__title rich-text__heading--medium h1">¡Bienvenidos!</h2>
+      <h2 style="text-indent: 50pt;" class="section-header__title rich-text__heading--medium h1">¡Bienvenid@! <?php echo $_SESSION['usuarioss']  ?></h2>
     </div>
     <div style="text-indent: 50pt;" class="rte rich-text__text--medium">
       <p>Camari es una tienda ubicada en Ecuador que piensa en lo mejor para ti.</p>

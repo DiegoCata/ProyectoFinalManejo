@@ -6,6 +6,7 @@
         <li> <a href="index.php?action=carrito">Carrito</a></li>
     </ul>
 </nav>
+<center><a class="hover" href="cerrar_Session.php">Salir</a></center>
 <!DOCTYPE html>
 <html lang="en">
 <head>

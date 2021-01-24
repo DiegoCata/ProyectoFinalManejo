@@ -1,25 +1,94 @@
-* {
-	padding: 0;
-	margin: 0;
-	font-family: unset;
-
-}
-
-
-
-h1 {
-	text-align: center;
-	padding: 12px;
-	color: rgb(206, 203, 203)
-}
-
-
 body{
-	background-image:url(fondo.jpeg);
-	width: 100%;
-	height:100%vh;
-	color:black;
+	margin: 0;
+	padding: 0;
+	background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLRX7iBoMADcqbyM28LiG8QSRaxh3NI9rr5A&usqp=CAU");
 	
+	background-size: cover;
+	color: white;
 }
-
-
+.login-box{
+	width: 320px;
+	height: 450px;
+	background:url("https://i.pinimg.com/736x/60/60/c2/6060c2a19a1f7b3ec0ddc76988d9cdab.jpg");
+	color: white;
+	top:50%;
+	left: 50%;
+	 position: absolute;
+	 /* centrar el div*/
+	 transform: translate(-50%,-50%);
+     /* para q no reseca el div*/
+	 box-sizing: border-box;
+	 padding: 75px 40px;
+}
+.avatar{
+	width: 125px;
+	height:auto;
+	border-radius: 45%;
+	position: absolute;
+	top:-55px;
+	left: 30%;
+}
+label{
+	margin:0:
+	padding: 0;
+	/*negrillas*/
+	font-weight:bold;
+	display: block;
+}
+h1{
+	text-align: center;
+	text-shadow: 2px 2px 4px  white;
+	text-decoration:underline;
+	text-transform: uppercase;
+}
+input{
+	width: 100%;
+	margin-bottom:20px; 
+}
+input[type="text"],
+input[type="password"]{
+	background:transparent;
+	border: none;
+	border-bottom:1px solid #fff;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	width: 90%;
+}
+input[type="submit"]{
+	background: red;
+	color: white;
+	font-size: 18px;
+	border-radius: 20px;
+	text-transform: uppercase;
+	outline: none;
+	padding:5px;
+	border:none;
+	pointer:c 
+}
+input[type="submit"]:hover{
+	background-color:#FF5833;
+	cursor:pointer; 
+	font-family: sans-serif;
+	font-size: 20px;
+}
+a{
+	color: darkgray;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+a:hover{
+	background:transparent;
+	color:#fff;
+	border-radius: 5px;
+	padding: 2px;
+}
+cite{
+	text-decoration: line-through;
+	float:right;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-shadow:.4px .2px  3px #fff;
+	user-select: none;
+}

@@ -8,6 +8,7 @@
     <script type="text/javascript" src="jquery-easyui-1.9.7/jquery.easyui.min.js"></script>
     <STYLE type="text/css"> </STYLE>
 </head>
+
 <body>
 <form id="fm" method="post" novalidate style="margin:0;padding:20px 460px" action="models/acceso.php" >
 <input type="hidden" id="op" name="op" value="ingresarCuenta">
