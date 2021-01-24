@@ -3,10 +3,7 @@ class EnlacesPaginasAdmin
 {
     public function enlacesPaginasModelAdmin($enlacesModelAdmin)
     {
-        if($enlacesModelAdmin== "ini" ||  
-        $enlacesModelAdmin== "ingreso" ||
-        $enlacesModelAdmin== "catalogo" ||
-        $enlacesModelAdmin== "precio" ||
+        if($enlacesModelAdmin== "modificarProducto"||
         $enlacesModelAdmin== "registroProductos" ||
         $enlacesModelAdmin== "listado" ||
         $enlacesModelAdmin== "cerrarS")
