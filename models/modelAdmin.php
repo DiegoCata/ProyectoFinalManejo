@@ -6,7 +6,7 @@ class EnlacesPaginasAdmin
         if($enlacesModelAdmin== "modificarProducto"||
         $enlacesModelAdmin== "registroProductos" ||
         $enlacesModelAdmin== "listado" ||
-        $enlacesModelAdmin== "cerrarS")
+        $enlacesModelAdmin== "salir")
         {
             $module="views/administrado/".$enlacesModelAdmin.".php";
         }

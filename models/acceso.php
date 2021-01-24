@@ -104,6 +104,27 @@ switch($op)
             }
             $mysqli->close();
         break;
+        case 'modificarPerfil':
+            header('Content-Type: application/json');
+            $nombre=$_POST['USU_NOM'];
+            $apellido=$_POST['USU_APE'];
+            $archivo=$_FILES['FOTO_PRO']['name'];
+            $foto=$_FILES['FOTO_PRO']['tmp_name'];
+            $ruta="imagenes/dos/".$archivo;
+            $correo=$_POST['USU_COR'];
+            $clave=$_POST['USU_CLA'];
+            $sqlUpdate="UPDATE usuarios SET USU_NOM = '$nombre',USU_APE='$apellido',USU_FOTO='$ruta',
+            USU_COR='$correo' WHERE USU_ID = '1'";
+            if($mysqli->query($sqlUpdate)===TRUE)
+            {
+            echo json_encode("Se actualizo ");
+            }
+            else
+            {
+            echo "Error:".$sqlUpdate."<br>".$mysqli->error;
+            }
+            $mysqli->close();
+        break;
 
 }
 }
