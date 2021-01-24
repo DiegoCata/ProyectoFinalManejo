@@ -35,3 +35,7 @@
         position:relative;
         padding:20px
     }
+    nav ul li a:hover{
+        color:white;
+        text-decoration:none;
+    }

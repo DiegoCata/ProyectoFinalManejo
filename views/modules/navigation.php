@@ -10,14 +10,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/layoutsss.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
 <a style="  width:100%;text-align:center ;color:black; padding: 50px;font-size: 15px;font-weight: bold;" href="index.php?action=inicio"><h1>Nombre_Tienda</h1></a>
-<div style="  width:100%;text-align:center;">
-<a style="word-spacing: 20pt;" href="index.php?action=inicio">Inicio </a>
-<a href="index.php?action=catalogo">Catálogo</a>
+<div class="ha" style="  width:100%;text-align:center;">
+<a class="hover" style="word-spacing: 30pt;" href="index.php?action=inicio">Inicio </a>
+<a class="hover" href="index.php?action=catalogo">Catálogo</a>
 </div>
 </body>
 </html>

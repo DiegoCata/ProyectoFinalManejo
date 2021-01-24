@@ -1,0 +1,17 @@
+li a:hover {
+	padding: 17px 29px;
+	background-color:black;
+	color: red;
+	font-weight:bold;
+	font-size:17px;
+	/*text-transform: uppercase;*/
+}
+
+.hover:hover{
+	padding: 5px;
+	background-color:black;
+	color: red;
+	font-weight:bold;
+	font-size:17px;
+	text-transform: uppercase;
+}
