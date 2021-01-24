@@ -50,7 +50,7 @@
     </span>
   </span>
   <p class="grid-link__title">Crop top blanco a rayas</p>
-  <p class="grid-link__title">$00.00</p>
+  <p class="grid-link__title">$25.00</p>
 </a>
       </div>
     
@@ -88,7 +88,7 @@
     </span>
   </span>
   <p class="grid-link__title">Crop top negro</p>
-  <p class="grid-link__title">$00.00</p>
+  <p class="grid-link__title">$23.00</p>
 </a>
       </div>
     
@@ -122,7 +122,7 @@
     </span>
   </span>
   <p class="grid-link__title">Crop top azul</p>
-  <p class="grid-link__title">$00.00</p>
+  <p class="grid-link__title">$19.99</p>
 </a>
       </div>
     
@@ -161,7 +161,7 @@
     </span>
   </span>
   <p class="grid-link__title">Crop top mostaza</p>
-  <p class="grid-link__title">$00.00</p>
+  <p class="grid-link__title">$19.99</p>
 </a>
       </div>
     
@@ -202,7 +202,7 @@
     </span>
   </span>
   <p class="grid-link__title">Crop top blanco</p>
-  <p class="grid-link__title">$00.00</p>
+  <p class="grid-link__title">$24.99</p>
 </a>
       </div>
     
