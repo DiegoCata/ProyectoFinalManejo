@@ -1,3 +1,9 @@
 
+<<<<<<< HEAD
+registro.sql
+registroproductos.sql
+usuarios.sql
+=======
 models/conexion.php
 *.php
+>>>>>>> bcbd437b6f9ff167ffbe423ae63df2ad085e5eaf
