@@ -78,7 +78,7 @@ switch($op)
             if ($nf === 1) {
                 header("location: ../indexAdmin.php?action=inicioAdmin");
             }else if ($nf === 0) {
-                header("location: ../indexAdmin.php?action=ingreso");
+                header("location: ../index.php?action=ingreso");
             }
         break;
 
