@@ -53,9 +53,11 @@ switch($op)
             $nombre=$_POST['NOM_PRO'];
             $precio=$_POST['PRE_PRO'];
             $cantidad=$_POST['CAN_PRO'];
-            $foto=addslashes(file_get_contents($_FILES['FOTO_PRO']['tmp_name']));
+            $archivo=$_FILES['FOTO_PRO']['name'];
+            $foto=$_FILES['FOTO_PRO']['tmp_name'];
+            $ruta="imagenes/dos/".$archivo;
             $sqlInsert="INSERT INTO registroProductos(COD_PRO,NOM_PRO,PRE_PRO,CAN_PRO,FOTO_PRO) 
-                        VALUES ('$codigo','$nombre','$precio','$cantidad','$foto')";
+                        VALUES ('$codigo','$nombre','$precio','$cantidad','$ruta')";
             if($mysqli->query($sqlInsert)===TRUE)
             {
             echo json_encode("Se guardo correctamente");
@@ -80,6 +82,27 @@ switch($op)
             }else if ($nf === 0) {
                 header("location: ../index.php?action=ingreso");
             }
+        break;
+        case 'modificarProducto':
+            header('Content-Type: application/json');
+            $codigo=$_POST['COD_PRO'];
+            $nombre=$_POST['NOM_PRO'];
+            $precio=$_POST['PRE_PRO'];
+            $cantidad=$_POST['CAN_PRO'];
+            $archivo=$_FILES['FOTO_PRO']['name'];
+            $foto=$_FILES['FOTO_PRO']['tmp_name'];
+            $ruta="imagenes/dos/".$archivo;
+            $sqlUpdate="UPDATE registroproductos SET NOM_PRO = '$nombre',PRE_PRO='$precio',CAN_PRO='$cantidad',
+            FOTO_PRO='$ruta' WHERE COD_PRO = '$codigo'";
+            if($mysqli->query($sqlUpdate)===TRUE)
+            {
+            echo json_encode("Se actualizo ");
+            }
+            else
+            {
+            echo "Error:".$sqlUpdate."<br>".$mysqli->error;
+            }
+            $mysqli->close();
         break;
 
 }
