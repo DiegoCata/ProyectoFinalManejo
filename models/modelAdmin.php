@@ -8,7 +8,7 @@ class EnlacesPaginasAdmin
         $enlacesModelAdmin== "catalogo" ||
         $enlacesModelAdmin== "precio" ||
         $enlacesModelAdmin== "registroProductos" ||
-        $enlacesModelAdmin== "admin" ||
+        $enlacesModelAdmin== "listado" ||
         $enlacesModelAdmin== "cerrarS")
         {
             $module="views/administrado/".$enlacesModelAdmin.".php";
