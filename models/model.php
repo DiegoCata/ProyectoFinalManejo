@@ -9,6 +9,8 @@ class EnlacesPaginas
         $enlacesModel== "catalogo_dos" ||
         $enlacesModel== "catJoggers" ||
         $enlacesModel== "catSF" ||
+        $enlacesModel== "catRD" ||
+        $enlacesModel== "catVes" ||
         $enlacesModel== "precio" ||
         $enlacesModel== "carrito" ||
         $enlacesModel== "registro")

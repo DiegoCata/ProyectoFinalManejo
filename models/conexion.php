@@ -9,5 +9,4 @@
     {
         die("Error en la conexion".mysqli_connect_error());
     }
-
 ?>
