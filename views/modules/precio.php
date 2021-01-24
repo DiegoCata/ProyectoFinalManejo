@@ -49,6 +49,11 @@ jeans o shorts&nbsp;que contrasten con estilo.&nbsp;</p>
 	<li>Cuello redondo</li>
 	<li>Elaborado en 100% viscosa</li>
 </ul>
+<center>
+<div class="botones">
+<button> Agregar al carrito</button>
+</center>
+</div>
 </div>
 </body>
 </html>
