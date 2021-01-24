@@ -1,6 +1,7 @@
 <nav>
     <ul>
         <li> <a href = "index.php?action=ingreso"> Ingreso</a> </li>
+        <li> <a href = "index.php?action=admin"> Admin</a> </li>
         <li> <a href = "index.php?action=registro"> Crear cuenta</a> </li>
         <li> <a href="index.php?action=carrito">Carrito</a></li>
     </ul>

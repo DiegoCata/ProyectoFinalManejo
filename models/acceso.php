@@ -76,11 +76,10 @@ switch($op)
             $query= mysqli_query($conn, "SELECT * FROM usuarios WHERE USU_COR = '".$correo."' AND USU_CLA = '".$clave."'");
             $nf = mysqli_num_rows($query);
             if ($nf === 1) {
-                header("location: ../index.php?action=registroProducto");
+                header("location: ../indexAdmin.php?action=inicioAdmin");
             }else if ($nf === 0) {
-                header("location: ../index.php?action=ingreso");
+                header("location: ../indexAdmin.php?action=ingreso");
             }
-        
         break;
 
 }
