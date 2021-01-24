@@ -17,7 +17,7 @@
       <p>Camari es una tienda ubicada en Ecuador que piensa en lo mejor para ti.</p>
     </div>
     <div style="text-indent: 400pt;" class="rte rich-text__text--medium">
-      <h3>50% DE DESCUENTO EN CROP TOPS</h3>
+      <h3>10% DE DESCUENTO EN CROP TOPS</h3>
     </div>
     <marquee>
           <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">

@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="css/login.css">
 </head>
 <body>
+<a style="  width:100%;text-align:center ;color:red; padding: 50px;font-size: 15px;font-weight: bold;"><h1>Listado de productos de "Camari"</h1></a>
+<div id="toolbar">
+      <a href="indexAdmin.php?action=inicioAdmin" class="easyui-linkbutton">Mi cuenta</a>
+</div>
   <div class="todo">
     <div id="contenido">
       <table style="margin: auto; width: 800px; border-collapse: separate; border-spacing: 10px 5px;">
@@ -15,7 +19,6 @@
           <th>PRE_PRO</th>
           <th>CAN_PRO</th>
           <th>FOTO_PRO</th>
-          <th> <a href="indexAdmin.php?action=registroProductos"> <button type="button" class="btn btn-info">Nuevo</button> </a> </th>
         </thead>
 
         <?php
@@ -40,7 +43,7 @@
               echo "<td>"; echo $fila['PRE_PRO']; echo "</td>";
               echo "<td>"; echo $fila['CAN_PRO']; echo "</td>";
               echo "<td>"; echo "<img src='".$fila['FOTO_PRO']."' width='50' >"; echo "</td>";
-              echo "<td><a href='modif_prod1.php?COD_PRO=".$fila['COD_PRO']."'> <button type='button' class='btn btn-success'>Modificar</button> </a></td>";
+              echo "<td><a href='indexAdmin.php?action=modificarProducto'> <button type='button' class='btn btn-success'>Modificar</button> </a></td>";
               echo " <td><a href='eliminar_prod.php?COD_PRO=".$fila['COD_PRO']."'> <button type='button' class='btn btn-danger'>Eliminar</button> </a></td>";
           echo "</tr>";
           }
