@@ -10,7 +10,7 @@
 </head>
 <?php
     session_start();
-    if( !isset($_SESSION['usuarioss'] ) ){
+    if( !isset($_SESSION['usu'] ) ){
       header("Location: index.html");
     }
   ?>
@@ -18,7 +18,7 @@
 <div id="shopify-section-1599613745937" class="shopify-section index-section">
   <div class="rich-text">
     <div class="section-header section-header--small">
-      <h2 style="text-indent: 50pt;" class="section-header__title rich-text__heading--medium h1">¡Bienvenid@! <?php echo $_SESSION['usuarioss']  ?></h2>
+      <h2 style="text-indent: 50pt;" class="section-header__title rich-text__heading--medium h1">¡Bienvenid@! <?php echo $_SESSION['usu']  ?></h2>
     </div>
     <div style="text-indent: 50pt;" class="rte rich-text__text--medium">
       <p>Camari es una tienda ubicada en Ecuador que piensa en lo mejor para ti.</p>

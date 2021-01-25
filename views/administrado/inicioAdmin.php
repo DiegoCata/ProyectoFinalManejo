@@ -1,7 +1,7 @@
 <?php
 
 	require_once ("models/conexion.php");
-	$query_empresa=mysqli_query($conn,"select * from usuarios where USU_ID=1");
+	$query_empresa=mysqli_query($conn,"select * from administrador where NOM_USU='Day20'");
 	$row=mysqli_fetch_array($query_empresa);
 ?>
 
@@ -19,9 +19,17 @@
   	
 	  <link rel=icon href='img/vida.png' sizes="32x32" type="image/png">
   </head>
+  <?php
+    session_start();
+    if( !isset($_SESSION['usu'] ) ){
+      header("Location: index.html");
+    }
+  ?>
 <body>
 <h1 style="text-align:center" class="animate__animated animate__backInLeft">Bienvenida a tu cuenta</h1>
-<br></br>
+<h1 style="text-align:center" class="animate__animated animate__backInLeft">
+<?php echo $_SESSION['usu']  ?>
+</h1>
 	<div class="container">
     <div class="row">
     <form id="ff" method="post" novalidate style="margin:0;padding:20px 100px" action="http://localhost/proyecto/models/acceso.php" enctype= "multipart/form-data">
@@ -57,6 +65,18 @@
                         <td class='col-md-3'>Apellido:</td>
                         <td><div style="margin-bottom:10px">
                           <input type="text" name="USU_APE" class="easyui-textbox" value="<?php echo $row['USU_APE']?>" required="true" style="width:100%">
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td class='col-md-3'>Teléfono:</td>
+                        <td><div style="margin-bottom:10px">
+                          <input type="text" name="USU_TEL" class="easyui-textbox" value="<?php echo $row['USU_TEL']?>" required="true" style="width:100%">
+                        </div></td>
+                      </tr>
+                      <tr>
+                        <td class='col-md-3'>Nombre de usuario:</td>
+                        <td><div style="margin-bottom:10px">
+                          <input type="text" name="NOM_USU" class="easyui-textbox" value="<?php echo $row['NOM_USU']?>" required="true" style="width:100%">
                         </div></td>
                       </tr>
                       <tr>
