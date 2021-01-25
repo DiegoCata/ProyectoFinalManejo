@@ -51,7 +51,7 @@
 <!--INICIO IMAGEN-->
       
           <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a  class="grid-link">
+          <a  href="index.php?action=precio2" class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">
                 <style>
@@ -82,7 +82,7 @@
 <!--INICIO IMAGEN-->    
       
           <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a class="grid-link">
+          <a  href="index.php?action=precio3" class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">  
                 <style>
@@ -113,7 +113,7 @@
 <!--INICIO IMAGEN-->
 
           <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a class="grid-link">
+          <a  href="index.php?action=precio4" class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">
                 <style>
@@ -143,8 +143,8 @@
 
 <!--INICIO IMAGEN-->    
       
-<div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a  class="grid-link">
+        <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
+          <a  href="index.php?action=precio5" class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">
                 <style>
