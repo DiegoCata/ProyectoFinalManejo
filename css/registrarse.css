@@ -1,44 +1,32 @@
 body{
-	background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLRX7iBoMADcqbyM28LiG8QSRaxh3NI9rr5A&usqp=CAU");
+	margin: 0;
+	padding: 0;
+	background:url("https://mujeres.es/wp-content/uploads/2014/04/tiendas-de-ropa.jpg");
+	
 	background-size: cover;
-	color:#fff; 
-	height: auto;
-	}
+	color: rgb(8, 8, 8);
+}
 .login-box{
-	background:url("https://i.pinimg.com/736x/60/60/c2/6060c2a19a1f7b3ec0ddc76988d9cdab.jpg");
-	background-repeat: no-repeat;
-	background-size:cover;
-	width:320px;
-	height:450px ;
-	position: absolute;
+	width: 320px;
+	height: 450px;
+	background:url("https://x6i2p6h3.rocketcdn.me/wp-content/uploads/2020/06/camiseta-blanca-jeans-azul-gafas-sol-collar-zapatillas-blancas-sobre-fondo-blanco_86156-325.jpg");
+	color: rgb(7, 7, 7);
 	top:50%;
 	left: 50%;
-	transform: translate(-50%,-50%);
-	box-sizing:border-box;
-    padding: 45px 50px;
+	 position: absolute;
+	 /* centrar el div*/
+	 transform: translate(-50%,-50%);
+     /* para q no reseca el div*/
+	 box-sizing: border-box;
+	 padding: 75px 40px;
 }
 .avatar{
-	width:100px;
+	width: 125px;
+	height:auto;
+	border-radius: 45%;
 	position: absolute;
-	top:-10%;
-	left:35%;
-	border-radius: 49px;
-}
-h1{
-	text-align: center;
-	text-transform: uppercase;
-	text-shadow: 1px 1px 4px white;
-}
-input{
-	border:none;
-	background:transparent;
-	padding:5px;
-	border-bottom:1px solid #fff;
-	/*border-top:1px solid #fff;*/
-	color: white;
-	margin-bottom:10px;
-	outline: none;
-	width: 80%;
+	top:-55px;
+	left: 30%;
 }
 label{
 	margin:0:
@@ -46,53 +34,61 @@ label{
 	/*negrillas*/
 	font-weight:bold;
 	display: block;
-	margin-bottom:5px;
 }
-.boton{
-	background: red;
-	color: white;
+h1{
+	text-align: center;
+	text-shadow: 2px 2px 4px  rgb(0, 0, 0);
+	text-decoration:underline;
+	text-transform: uppercase;
+}
+input{
+	width: 100%;
+	margin-bottom:20px; 
+}
+input[type="text"],
+input[type="password"]{
+	background:transparent;
+	border: none;
+	border-bottom:1px solid rgb(7, 7, 7);
+	outline: none;
+	height: 40px;
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+	width: 90%;
+}
+input[type="submit"]{
+	background: rgb(245, 175, 175);
+	color: rgb(0, 0, 0);
 	font-size: 18px;
 	border-radius: 20px;
 	text-transform: uppercase;
 	outline: none;
+	padding:5px;
 	border:none;
-	padding: 5px;
-	width: 100%;
-	font-weight: bold;
-	margin-bottom: 20px;
+	pointer:c 
 }
-.boton:hover{
-	background-color:#FF5833;
+input[type="submit"]:hover{
+	background-color:rgb(236, 140, 140);
 	cursor:pointer; 
+	font-family: sans-serif;
 	font-size: 20px;
 }
-cite{
-	float:right;
-	text-transform: uppercase;
-	text-decoration: line-through;
-	border: none;
-	display: block;
-	color: gray;
-	text-shadow:1px 1px 2px #fff;
-	user-select: none; 
-}
-.fg{
-	color: #fff; 	
-	text-decoration:none; 
-}
-.img1{
-	width: 45%;
-	height: auto;
-}
-
 a{
-	color: black;
+	color: rgb(12, 12, 12);
 	margin-bottom: 5px;
 	padding: 5px;
 }
 a:hover{
 	background:transparent;
-	color:#fff;
+	color:rgb(7, 7, 7);
 	border-radius: 5px;
 	padding: 2px;
+}
+cite{
+	text-decoration: line-through;
+	float:right;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-shadow:.4px .2px  3px rgb(7, 7, 7);
+	user-select: none;
 }
