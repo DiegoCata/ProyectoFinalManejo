@@ -13,7 +13,6 @@ class EnlacesPaginas
         $enlacesModel== "catVes" ||
         $enlacesModel== "precio" ||
         $enlacesModel== "carrito" ||
-        $enlacesModel== "admin" ||
         $enlacesModel== "registro")
         {
             $module="views/modules/".$enlacesModel.".php";
