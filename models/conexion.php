@@ -1,5 +1,5 @@
 <?php
-    $servername="localhost";
+    $servername="localhost:33065";
     $username="root";
     $password="";
     $dbname="camaribd";
