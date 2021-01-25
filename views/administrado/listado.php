@@ -30,7 +30,7 @@
         </thead>
 
         <?php
-        $servername="localhost:33065";
+        $servername="localhost";
         $username="root";
         $password="";
         $dbname="camaribd";
