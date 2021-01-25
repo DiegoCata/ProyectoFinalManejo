@@ -30,7 +30,7 @@
                 </style>
                 <div id="CollectionImageWrapper-1001916661915--235" class="collection__grid-image-wrapper supports-js">
                   <div style="padding-top:133.3333333%;">
-                    <img id="CollectionImage-1001916661915--235" class="collection__grid-image lazyautosizes ls-is-cached lazyloaded" src="imagenes/dos/1.2.jpg?v=1608246249" data-widths="[180, 235, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-aspectratio="0.75" data-sizes="auto" alt="Crop top" data-srcset="//cdn.shopify.com/s/files/1/0465/6529/4235/collections/image_4f5cb8fd-36df-4e4d-9a22-6fda9e6a6718_180x.jpg?v=1608246249 180w, //cdn.shopify.com/s/files/1/0465/6529/4235/collections/image_4f5cb8fd-36df-4e4d-9a22-6fda9e6a6718_235x.jpg?v=1608246249 235w, //cdn.shopify.com/s/files/1/0465/6529/4235/collections/image_4f5cb8fd-36df-4e4d-9a22-6fda9e6a6718_360x.jpg?v=1608246249 360w">
+                    <img id="CollectionImage-1001916661915--235" class="collection__grid-image lazyautosizes ls-is-cached lazyloaded" src="imagenes/dos/4.5.jpg?v=1608246249" data-widths="[180, 235, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]" data-aspectratio="0.75" data-sizes="auto" alt="Crop top" data-srcset="//cdn.shopify.com/s/files/1/0465/6529/4235/collections/image_4f5cb8fd-36df-4e4d-9a22-6fda9e6a6718_180x.jpg?v=1608246249 180w, //cdn.shopify.com/s/files/1/0465/6529/4235/collections/image_4f5cb8fd-36df-4e4d-9a22-6fda9e6a6718_235x.jpg?v=1608246249 235w, //cdn.shopify.com/s/files/1/0465/6529/4235/collections/image_4f5cb8fd-36df-4e4d-9a22-6fda9e6a6718_360x.jpg?v=1608246249 360w">
                   </div>
                 </div>
 </div>
@@ -53,6 +53,9 @@
 <button> Agregar al carrito</button>
 </center>
 </div>
+<ul>
+        <li> <left><a href="index.php?action=catRD"><button> Regresar</button></a></left></li>
+</ul>
 </div>
 </body>
 </html>

@@ -19,7 +19,7 @@
 <!--INICIO IMAGEN-->
 
           <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a  href="index.php?action=precio" class="grid-link">
+          <a  href="index.php?action=RP1" class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">
                 <style>
@@ -51,7 +51,7 @@
 <!--INICIO IMAGEN-->
       
           <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a  class="grid-link">
+          <a  href="index.php?action=RP2" class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">
                 <style>
@@ -82,7 +82,7 @@
 <!--INICIO IMAGEN-->    
       
           <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a class="grid-link">
+          <a  href="index.php?action=RP3" class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">  
                 <style>
@@ -113,7 +113,7 @@
 <!--INICIO IMAGEN-->
 
           <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a class="grid-link">
+          <a  href="index.php?action=RP4" class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">
                 <style>
@@ -144,7 +144,7 @@
 <!--INICIO IMAGEN-->    
       
 <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a  class="grid-link">
+<a  href="index.php?action=RP5" class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">
                 <style>

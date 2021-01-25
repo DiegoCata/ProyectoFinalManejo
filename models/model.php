@@ -29,6 +29,11 @@ class EnlacesPaginas
         $enlacesModel== "SF6" ||
         $enlacesModel== "SF7" ||
         $enlacesModel== "SF8" ||
+        $enlacesModel== "RP1" ||
+        $enlacesModel== "RP2" ||
+        $enlacesModel== "RP3" ||
+        $enlacesModel== "RP4" ||
+        $enlacesModel== "RP5" ||
         $enlacesModel== "carrito" ||
         $enlacesModel== "registro")
         {
