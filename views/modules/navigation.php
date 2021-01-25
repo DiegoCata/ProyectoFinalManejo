@@ -1,8 +1,7 @@
 <nav>
     <ul>
-        <li> <a href = "index.php?action=admin"> Admin</a> </li>
         <li> <a href="index.php?action=carrito">Carrito</a></li>
-        <li> <a href="cerrarSesion.php">Cerrar sesión</a></li>
+        <li> <a href="cerrarSesion.php">Cerrar sesion</a></li>
     </ul>
 </nav>
 
@@ -12,7 +11,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/layoutsss.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
 </head>
 <body>
 <a style="  width:100%;text-align:center ;color:black; padding: 50px;font-size: 15px;font-weight: bold;" href="index.php?action=inicio"><h1>Camari</h1></a>
