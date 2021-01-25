@@ -18,7 +18,7 @@
 
 <!--INICIO IMAGEN-->
           <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a  class="grid-link">
+          <a  href="index.php?action=jg1" class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">
                 <style>
@@ -50,7 +50,7 @@
 <!--INICIO IMAGEN-->    
       
           <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a  class="grid-link">
+          <a  href="index.php?action=jg2" class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">
                 <style>
@@ -81,7 +81,7 @@
 <!--INICIO IMAGEN-->    
       
           <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a class="grid-link">
+          <a  href="index.php?action=jg3" class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">       
                 <style>
@@ -111,7 +111,7 @@
 
 <!--INICIO IMAGEN-->  
           <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-                  <a  class="grid-link">
+          <a  href="index.php?action=j4" class="grid-link">
                     <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
                       <span class="grid-link__image-centered">
                         <style>
@@ -142,7 +142,7 @@
 
 <!--INICIO IMAGEN-->  
             <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-                  <a  class="grid-link">
+            <a  href="index.php?action=jg5" class="grid-link">
                     <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
                       <span class="grid-link__image-centered">
                         <style>

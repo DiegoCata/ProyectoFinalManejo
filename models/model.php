@@ -16,7 +16,11 @@ class EnlacesPaginas
         $enlacesModel== "precio3" ||
         $enlacesModel== "precio4" ||
         $enlacesModel== "precio5" ||
-        $enlacesModel== "JG1" ||
+        $enlacesModel== "jg1" ||
+        $enlacesModel== "jg2" ||
+        $enlacesModel== "jg3" ||
+        $enlacesModel== "jg4" ||
+        $enlacesModel== "jg5" ||
         $enlacesModel== "SF1" ||
         $enlacesModel== "SF2" ||
         $enlacesModel== "SF3" ||
