@@ -12,8 +12,12 @@ class EnlacesPaginas
         $enlacesModel== "catRD" ||
         $enlacesModel== "catVes" ||
         $enlacesModel== "precio" ||
+        $enlacesModel== "precio2" ||
+        $enlacesModel== "precio3" ||
+        $enlacesModel== "precio4" ||
+        $enlacesModel== "precio5" ||
+        $enlacesModel== "JG1" ||
         $enlacesModel== "carrito" ||
-        $enlacesModel== "admin" ||
         $enlacesModel== "registro")
         {
             $module="views/modules/".$enlacesModel.".php";

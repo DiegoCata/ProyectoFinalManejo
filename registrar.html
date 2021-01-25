@@ -1,30 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>Camari</title>
+    <meta charset="UTF-8">
+    <title>Camari</title>
+    <link rel="stylesheet" type="text/css" href="jquery-easyui-1.9.7/themes/bootstrap/easyui.css">
+    <script type="text/javascript" src="jquery-easyui-1.9.7/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery-easyui-1.9.7/jquery.easyui.min.js"></script>
 	<link rel="icon" type="text/jpg" href="https://cdn.icon-icons.com/icons2/1948/PNG/512/free-30-instagram-stories-icons07_122554.png">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
 	<link rel="stylesheet" type="text/css" href="css/logins.css">
 </head>
 <body>
-	<h1>Registrar</h1>
-	<div class="login-box">
-
-		<form action="registrarses.php" method="post">
-			<label for="Nombre">Nombre:</label>
-			<input type="text" placeholder="Ingrese su nombre" id="Nombre" maxlength="10" name="Nombre" >
-			<i class="fas fa-user"></i>
-			<label for="email">E-mail:</label>
-			<input type="text" placeholder="Ingrese su e-mail" id="email" maxlength="10" name="email" >
-			<i class="fas fa-envelope"></i>
-			<label for="Password">Contraseña:</label>
-			<input type="password" placeholder="Ingrese su contraseña" id="CNT" maxlength="15" name="CNT">
-			<i class="fas fa-unlock-alt"></i>
-			<br>
-			<input type="submit" value="Registrar" class="boton"><br/>
-			<a href="index.html"><center>¡Tienes una cuenta!</center></a><br/>
-		</form>
+    <div style="width:100%;text-align:center ;color:black; padding:10px;font-size: 15px;font-weight: bold;">
+        <h1>¡Bienvenido, registra tu cuenta!</h1>
 	</div>
+	<br></br>
+    <form id="fm" method="post" novalidate style="margin:0;padding:60px 460px" action="models/acceso.php" >
+        <input type="hidden" id="op" name="op" value="crearCuenta">
+    <div id="dlg" class="login-box" style="width:400px;padding:0px 75px">
+        <div style="margin-bottom:20px;text-align: center;"> 
+            <h3>Información de Usuario</h3>
+        </div>
+            <div style="margin-bottom:3px">
+                <input name="USU_NOM" class="easyui-textbox" required="true" label="Nombre:" prompt="Ingrese su nombre" style="width:130%">
+            </div>  
+            <div style="margin-bottom:3px">
+                <input name="USU_APE" class="easyui-textbox" required="true" label="Apellido:" prompt="Ingrese su apellido" style="width:130%">
+			</div>
+			<div style="margin-bottom:3px">
+                <input name="NOM_USU" class="easyui-textbox" label="Usuario:" prompt="Nombre de usuario" style="width:130%">
+            </div>
+            <div style="margin-bottom:3px">
+                <input name="USU_COR" class="easyui-textbox" required="true" label="Correo:" prompt="Correo electrónico" style="width:130%">
+            </div>
+            <div style="margin-bottom:3px">
+                <input name="USU_CLA" class="easyui-passwordbox" required="true" label="Clave:" prompt="Password" iconWidth="28" style="width:130%;height:34px;padding:10px">
+            </div>
+            <div style="text-align:center" id="dlg-buscar">
+				<button type = "submit" name = "buscar" class="easyui-linkbutton" style="width:80px">Registrar</button>
+			</div>
+	</form>
+<br> 
+    <div style="  width:100%;text-align:center;">
+        <a href="index.html">Volver a login</a>
+    </div>
 </body>
 </html>
+

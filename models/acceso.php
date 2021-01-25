@@ -16,38 +16,43 @@ switch($op)
 {
         case 'crearCuenta':
             header('Content-Type: application/json');
+            $usuario=$_POST['NOM_USU'];
             $nombre=$_POST['USU_NOM'];
             $apellido=$_POST['USU_APE'];
             $correo=$_POST['USU_COR'];
             $clave=$_POST['USU_CLA'];
             $clave_cifrada=hash('sha512', $clave);
-            $sqlInsert="INSERT INTO registro(USU_NOM,USU_APE,USU_COR,USU_CLA) 
-                        VALUES ('$nombre','$apellido','$correo','$clave_cifrada')";
+            $sqlInsert="INSERT INTO usuarios(NOM_USU,USU_NOM,USU_APE,USU_COR,USU_CLA) 
+                        VALUES ('$usuario','$nombre','$apellido','$correo','$clave_cifrada')";
             if($mysqli->query($sqlInsert)===TRUE)
             {
+            session_start();
+            $_SESSION['usu'] = $_POST['NOM_USU'];
+            header("Location: ../index.php?action=inicio");  
             echo json_encode("Se guardo correctamente");
             }
             else
             {
-            echo "Error...".$sqlInsert."<br>".$mysqli->error;
+            header( "Location:index.html" );
             }
             $mysqli->close();
             
         break;
+     
         case 'ingresarCuenta':
             header('Content-Type: application/json');
             session_start();
-            $correo = $_POST['USU_COR'];
+            $usuario = $_POST['NOM_USU'];
             $clave = $_POST['USU_CLA'];
             $clave_cifrada=hash('sha512', $clave);
-            $query= mysqli_query($conn, "SELECT * FROM registro WHERE USU_COR = '".$correo."' AND USU_CLA = '".$clave_cifrada."'");
+            $query= mysqli_query($conn, "SELECT * FROM usuarios WHERE NOM_USU = '".$usuario."' AND USU_CLA = '".$clave_cifrada."'");
             $nf = mysqli_num_rows($query);
             if ($nf === 1) {
                 session_start();
-                $_SESSION['usu'] = $_POST['USU_COR'];
-                header("location: ../indexUsu.php?action=inicioUsu");
+                $_SESSION['usu'] = $_POST['NOM_USU'];
+                header("location: ../index.php?action=inicio");
             }else if ($nf === 0) {
-                header("location: ../index.php?action=ingreso");
+                header("location: ../index.html");
             }
         break;
 
@@ -77,15 +82,17 @@ switch($op)
         case 'ingresarCuentaAdmin':
             header('Content-Type: application/json');
             session_start();
-            $correo = $_POST['USU_COR'];
+            $usuario = $_POST['NOM_USU'];
             $clave = $_POST['USU_CLA'];
             $clave_cifrada=hash('sha512', $clave);
-            $query= mysqli_query($conn, "SELECT * FROM usuarios WHERE USU_COR = '".$correo."' AND USU_CLA = '".$clave."'");
+            $query= mysqli_query($conn, "SELECT * FROM administrador WHERE NOM_USU = '".$usuario."' AND USU_CLA = '".$clave."'");
             $nf = mysqli_num_rows($query);
             if ($nf === 1) {
+                session_start();
+                $_SESSION['usu'] = $_POST['NOM_USU'];
                 header("location: ../indexAdmin.php?action=inicioAdmin");
             }else if ($nf === 0) {
-                header("location: ../index.php?action=admin");
+                header("location: ../loginAdmin.html");
             }
         
         break;
