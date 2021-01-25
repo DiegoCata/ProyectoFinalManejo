@@ -37,8 +37,10 @@
 <div style="text-align: justify; text-indent: 170pt">
 
 <p><strong><h2>$27.99</h2></strong></p>
-<p>Viste la camisite que va con tu estilo </p><p> Tela de excelente calidad
-&nbsp;confeccionada por la marca H&amp;O.&nbsp;Excelente para ejercitarse y combinarla con short&nbsp;</p>
+<p>Viste la camisite que va con tu estilo; tela de excelente calidad</p><p>
+&nbsp;confeccionada por la marca H&amp;O.&nbsp;Excelente para ejercitarse y </p>
+<p>combinarla con short.
+</p>
 <div style="text-align: justify; text-indent: 170pt">
 <strong>Detalles:</strong>
 </div>
@@ -46,6 +48,7 @@
 	<li>Camiseta H&amp;O</li>
 	<li>Diseño unico de la marca</li>
 	<li>Elaborado en 100%Algodon</li>
+  <li></li>
 </ul>
 <center>
 <div class="botones">

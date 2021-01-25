@@ -37,7 +37,7 @@
 <div style="text-align: justify; text-indent: 170pt">
 
 <p><strong><h2>$12.99</h2></strong></p>
-<p>Viste a la moda con el leggin muy comodo y delgado </p><p> el legging innovador que combina a tu estilo
+<p>Viste a la moda con el leggin muy comodo y delgado el legging </p><p>innovador que combina a tu estilo
  &nbsp;confeccionada por la marca H&amp;O.&nbsp;Combinalo con lo que tu quieras&nbsp;</p>
 <div style="text-align: justify; text-indent: 170pt">
 <strong>Detalles:</strong>

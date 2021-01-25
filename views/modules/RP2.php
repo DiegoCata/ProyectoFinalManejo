@@ -38,7 +38,7 @@
 
 <p><strong><h2>$22.00</h2></strong></p>
 <p>Viste a la moda con el top amarillo y el leggin muy comodo </p><p> el legging mas fresco que puedas
-encontrar para ejercitarte &nbsp;confeccionada por la marca H&amp;O.&nbsp;Disfruta de tu rutina de ejercicios&nbsp;</p>
+encontrar para ejercitarte;</p><p>confeccionada por la marca H&amp;O.&nbsp;</p>
 <div style="text-align: justify; text-indent: 170pt">
 <strong>Detalles:</strong>
 </div>
@@ -46,7 +46,6 @@ encontrar para ejercitarte &nbsp;confeccionada por la marca H&amp;O.&nbsp;Disfru
 	<li>Top H&amp;O</li>
     <li>Legging H&amp;O</li>
     <li>Malla refresacnte en legging</li>
-	<li>Diseño sin estampado</li>
 	<li>Elaborado en 100%Algodon</li>
 </ul>
 <center>
