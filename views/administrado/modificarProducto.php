@@ -12,6 +12,12 @@
 
 <body>
     
+    <div id="toolbar">
+        <a href="indexAdmin.php?action=inicioAdmin" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="newUser()">Mi cuenta</a>
+    </div>
+
+    
+    
         <form id="ff" method="post" novalidate style="margin:0;padding:20px 460px" action="http://localhost/proyecto/models/acceso.php" enctype= "multipart/form-data">
         <input type="hidden" id="op" name="op" value="modificarProducto">
     <div id="dlg" class="easyui-panel" style="width:400px;padding:50px 60px">
@@ -64,6 +70,15 @@
             });
         }
 
+        function editUser() {
+            var row = $('#dg').datagrid('getSelected');
+            if (row) {
+                $('#dlgm').dialog('open').dialog('center').dialog('setTitle', 'Edit User');
+                $('#ff').form('load', row);
+                // url = 'update_user.php?id=' + row.id;
+            }
+        }
+
 
         function destroyUser() {
             var row = $('#dg').datagrid('getSelected');
@@ -92,4 +107,3 @@
 </body>
 
 </html>
-      

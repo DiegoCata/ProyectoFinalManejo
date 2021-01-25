@@ -2,7 +2,7 @@
      $servername="localhost";
      $username="root";
      $password="";
-     $dbname="universidad2";
+     $dbname="universidad";
      $con = mysqli_connect($servername, $username, $password,$dbname);
      if( mysqli_connect_errno() ){
          echo "Fallo al conecatar";
@@ -11,7 +11,7 @@
          $usuario = $_POST['Usuario'];
          $cont = $_POST['Password'];
          mysqli_set_charset($con, "utf8");
-         $consulta = "SELECT * FROM usuarios WHERE NOM_USU= '$usuario' AND CON_USU ='$cont' ";
+         $consulta = "SELECT * FROM prueba WHERE NOM_USU= '$usuario' AND CON_USU ='$cont' ";
          $resul = mysqli_query($con, $consulta); 
          if( $fila=mysqli_fetch_row($resul) ){
             //echo "Adelante!!!";

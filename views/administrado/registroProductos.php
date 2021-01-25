@@ -30,16 +30,7 @@
 
             <div class="photo">
                 <label for="foto">Foto</label>
-                    <div class="prevPhoto">
-                        <span class = "Foto del producto"></span>
-                    <label for = "Foto"></label>
-                    </div>
-                <div class="upImagen">
-                    
                     <input type = "file" name = "FOTO_PRO" id = "FOTO_PRO" required="true">
-                    <div id = "form_alert"></div>
-                </div>
-                
             </div>
             <div style="text-align:center" id="dlg-buttons">
                 <a href="#" class="easyui-linkbutton" onclick = "guardarProducto()" style="width:80px">Registrar</a>

@@ -32,6 +32,7 @@ switch($op)
             echo "Error...".$sqlInsert."<br>".$mysqli->error;
             }
             $mysqli->close();
+            
         break;
         case 'ingresarCuenta':
             header('Content-Type: application/json');
@@ -42,11 +43,14 @@ switch($op)
             $query= mysqli_query($conn, "SELECT * FROM registro WHERE USU_COR = '".$correo."' AND USU_CLA = '".$clave_cifrada."'");
             $nf = mysqli_num_rows($query);
             if ($nf === 1) {
-                header("location: ../index.php?action=inicio");
+                session_start();
+                $_SESSION['usu'] = $_POST['USU_COR'];
+                header("location: ../indexUsu.php?action=inicioUsu");
             }else if ($nf === 0) {
                 header("location: ../index.php?action=ingreso");
             }
         break;
+
         case 'crearProducto':
             header('Content-Type: application/json');
             $codigo=$_POST['COD_PRO'];
@@ -56,6 +60,7 @@ switch($op)
             $archivo=$_FILES['FOTO_PRO']['name'];
             $foto=$_FILES['FOTO_PRO']['tmp_name'];
             $ruta="imagenes/dos/".$archivo;
+
             $sqlInsert="INSERT INTO registroProductos(COD_PRO,NOM_PRO,PRE_PRO,CAN_PRO,FOTO_PRO) 
                         VALUES ('$codigo','$nombre','$precio','$cantidad','$ruta')";
             if($mysqli->query($sqlInsert)===TRUE)
@@ -80,9 +85,11 @@ switch($op)
             if ($nf === 1) {
                 header("location: ../indexAdmin.php?action=inicioAdmin");
             }else if ($nf === 0) {
-                header("location: ../index.php?action=ingreso");
+                header("location: ../index.php?action=admin");
             }
+        
         break;
+
         case 'modificarProducto':
             header('Content-Type: application/json');
             $codigo=$_POST['COD_PRO'];

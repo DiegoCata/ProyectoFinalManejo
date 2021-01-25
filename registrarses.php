@@ -2,7 +2,7 @@
      $servername="localhost";
      $username="root";
      $password="";
-     $dbname="universidad2";
+     $dbname="universidad";
      $con = mysqli_connect($servername, $username, $password,$dbname);
      if( mysqli_connect_errno() ){
          echo "Fallo al conecatar";
@@ -12,7 +12,7 @@
          $correo =  $_POST['email'];
          $cont = $_POST['CNT'];
          mysqli_set_charset($con, "utf8");
-         $insertar = "INSERT INTO usuarios (NOM_USU, CORR_USU ,CON_USU) VALUES ('$usuario',' $correo','$cont')";
+         $insertar = "INSERT INTO prueba (NOM_USU, CON_USU, CORR_USU) VALUES ('$usuario',' $cont','$correo')";
          $resul = mysqli_query($con, $insertar); 
          if( $resul ==  false ){
             //echo "Eror no se pudo registrarse";
