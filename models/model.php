@@ -17,6 +17,14 @@ class EnlacesPaginas
         $enlacesModel== "precio4" ||
         $enlacesModel== "precio5" ||
         $enlacesModel== "JG1" ||
+        $enlacesModel== "SF1" ||
+        $enlacesModel== "SF2" ||
+        $enlacesModel== "SF3" ||
+        $enlacesModel== "SF4" ||
+        $enlacesModel== "SF5" ||
+        $enlacesModel== "SF6" ||
+        $enlacesModel== "SF7" ||
+        $enlacesModel== "SF8" ||
         $enlacesModel== "carrito" ||
         $enlacesModel== "registro")
         {

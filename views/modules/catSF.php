@@ -18,7 +18,7 @@
 
 <!--INICIO IMAGEN-->
           <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-            <a  class="grid-link">
+          <a  href="index.php?action=SF1" class="grid-link">
               <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
                 <span class="grid-link__image-centered">            
                   <style>
@@ -49,7 +49,7 @@
 <!--INICIO IMAGEN-->
 
           <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a  class="grid-link">
+          <a  href="index.php?action=SF2" class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">
                 <style>
@@ -82,7 +82,7 @@
     
       
           <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a class="grid-link">
+          <a  href="index.php?action=SF3" class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered"> 
                 <style>
@@ -114,7 +114,7 @@
 
 <!--INICIO IMAGEN--> 
         <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a class="grid-link">
+        <a  href="index.php?action=SF4" class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered"> 
                 <style>
@@ -147,7 +147,7 @@
 <!--INICIO IMAGEN-->
     
         <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a class="grid-link">
+        <a  href="index.php?action=SF5" class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered"> 
                 <style>
@@ -179,7 +179,7 @@
 <!--INICIO IMAGEN-->
 
           <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a class="grid-link">
+          <a  href="index.php?action=SF6" class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered"> 
                 <style>
@@ -211,7 +211,7 @@
 <!--INICIO IMAGEN-->
 
         <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a  class="grid-link">
+        <a  href="index.php?action=SF7" class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">          
                 <style>
@@ -243,7 +243,7 @@
 <!--INICIO IMAGEN-->
 
           <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a  class="grid-link">
+          <a  href="index.php?action=SF8" class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">          
                 <style>
