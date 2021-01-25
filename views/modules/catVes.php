@@ -19,7 +19,7 @@
 <!--INICIO IMAGEN-->
 
           <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a  href="index.php?action=precio" class="grid-link">
+          <a  href="views/modules/vestido1.php" class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">
                 <style>
@@ -51,7 +51,7 @@
 <!--INICIO IMAGEN-->
       
           <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a  class="grid-link">
+          <a   href="views/modules/vestido2.php"  class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">
                 <style>
@@ -82,7 +82,7 @@
 <!--INICIO IMAGEN-->    
       
           <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a class="grid-link">
+          <a   href="views/modules/vestido3.php"  class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">  
                 <style>
@@ -113,7 +113,7 @@
 <!--INICIO IMAGEN-->
 
           <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a class="grid-link">
+          <a   href="views/modules/vestido4.php"  class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">
                 <style>
@@ -144,7 +144,7 @@
 <!--INICIO IMAGEN-->    
       
 <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a class="grid-link">
+<a   href="views/modules/vestido5.php"  class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">
                 <style>
@@ -175,7 +175,7 @@
 <!--INICIO IMAGEN-->    
       
 <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a class="grid-link">
+<a   href="views/modules/vestido6.php"  class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">
                 <style>
@@ -206,7 +206,7 @@
 <!--INICIO IMAGEN-->    
       
 <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a class="grid-link">
+<a   href="views/modules/vestido7.php"  class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">
                 <style>
@@ -237,7 +237,7 @@
 <!--INICIO IMAGEN-->    
       
 <div class="grid__item small--one-half medium--one-third post-large--one-fifth text-center">
-          <a class="grid-link">
+<a   href="views/modules/vestido8.php"  class="grid-link">
             <span class="grid-link__image grid-link__image--collection" style="height: 264px;">
               <span class="grid-link__image-centered">
                 <style>
